@@ -1,6 +1,4 @@
 ﻿using Dapper;
-using System.Data;
-using System.Data.Common;
 using WeddingInvitation.Web.API.Contract;
 using WeddingInvitation.Web.API.Dapper;
 using WeddingInvitation.Web.API.Models;

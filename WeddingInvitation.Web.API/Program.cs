@@ -20,8 +20,9 @@ builder.Services.AddScoped<IDbConnection>(provider =>
 });
 
 builder.Services.AddScoped<IDapperContext, DapperContext>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IHelperRepository, HelperRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IThemeRepository, ThemeRepository>();
 
 var app = builder.Build();
 
